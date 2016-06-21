@@ -71,7 +71,6 @@ public class SRAdaptiveSpaceItem: NSToolbarItem {
     }
 
     func updateWidth() {
-        print("updating width")
         minSize = calculatedMinSize
         maxSize = calculatedMaxSize
     }
@@ -89,6 +88,7 @@ class AdaptiveSpaceItemView: NSView {
     override func viewDidMoveToWindow() {
         super.viewDidMoveToWindow()
         NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(windowResized), name: NSWindowDidResizeNotification, object: window)
+        adaptiveSpaceItem?.updateWidth()
     }
 
     func windowResized(notification: NSNotification) {
