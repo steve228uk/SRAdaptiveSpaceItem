@@ -20,3 +20,6 @@ pod 'SRAdaptiveSpaceItem'
 ````
 
 ## Screenshots
+
+![Screenshot 1](https://github.com/steve228uk/SRAdaptiveSpaceItem/blob/master/Screenshots/screenshot-1.png)
+![Screenshot 2](https://github.com/steve228uk/SRAdaptiveSpaceItem/blob/master/Screenshots/screenshot-2.png)
