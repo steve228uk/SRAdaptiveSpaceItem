@@ -4,7 +4,9 @@ Pod::Spec.new do |s|
   s.summary          = "A Swift NSToolbarItem subclass which creates a space that will center the next toolbar item"
 
   s.description      = <<-DESC
-A Swift NSToolbarItem subclass which creates a space that will center the next toolbar item
+A Swift NSToolbarItem subclass which creates a space that will center the next toolbar item.
+
+This is a direct translation of TAAdaptiveSpaceItem.
                        DESC
 
   s.homepage         = "https://github.com/steve228uk/SRAdaptiveSpaceItem"
