@@ -1,7 +1,7 @@
 # SRAdaptiveSpaceItem
 A Swift NSToolbarItem subclass which creates a space that will centre the next toolbar item.
 
-= This project is a direct translation of [TAAdaptiveSpaceItem](https://github.com/timothyarmes/TAAdaptiveSpaceItem)
+> This project is a direct translation of [TAAdaptiveSpaceItem](https://github.com/timothyarmes/TAAdaptiveSpaceItem)
 
 ## Usage
 
